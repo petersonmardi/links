@@ -2,17 +2,19 @@
   display: flex;
   flex-direction: column;
   width: 80%;
-  /* border: solid 1px #333;
-  border-radius: 10px; */
   margin-top: 35px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
+  color: #333;
 }
 .container h1 {
   font-family: 'Roboto', sans-serif;
+}
+.container p {
+  font-weight: bold;
 }
 .container .retbranche {
   background-color: #333;
@@ -42,10 +44,10 @@
   text-decoration: none;
 }
 .container .buy-me {
-  font-family: 'Courgette', cursive;
+  font-family: 'Roboto', sans-serif;
   background-color: #009cdd;
   padding: 25px;
-  color: #00004d;
+  color: #ffffff;
   text-decoration: none;
 }
 .container .usdt {
