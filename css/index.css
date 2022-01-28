@@ -22,6 +22,9 @@
   color: #333;
   text-decoration: none;
 }
+.container .retbranche:hover {
+  background-color: #595959;
+}
 .container .retbranche strong {
   color: #FEBA00;
 }
@@ -43,6 +46,9 @@
   color: #333;
   text-decoration: none;
 }
+.container .oriflame:hover {
+  background-color: #f0fc9c;
+}
 .container .buy-me {
   font-family: 'Roboto', sans-serif;
   background-color: #009cdd;
@@ -50,11 +56,18 @@
   color: #ffffff;
   text-decoration: none;
 }
+.container .buy-me:hover {
+  background-color: #00b3ff;
+  color: #ffffff;
+}
 .container .usdt {
   background-color: #003285;
   padding: 25px;
   color: #f2f2f2;
   text-decoration: none;
+}
+.container .usdt:hover {
+  background-color: #004ecc;
 }
 .show {
   display: block;
